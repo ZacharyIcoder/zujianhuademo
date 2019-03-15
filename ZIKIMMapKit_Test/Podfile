@@ -1,0 +1,10 @@
+platform :ios, "8.0"
+
+source 'https://github.com/ZIK-IM-Modularization/ZIKIMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ZIKIMMapKit_Test' do
+#MapKit
+    pod 'ZIKIMMapKit'
+    pod 'ZIKIMMapCategory'
+end

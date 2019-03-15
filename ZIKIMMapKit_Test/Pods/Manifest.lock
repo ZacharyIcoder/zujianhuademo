@@ -1,0 +1,35 @@
+PODS:
+  - AMap2DMap-NO-IDFA (5.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.4.3)
+  - AMapLocation-NO-IDFA (2.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.7.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - CTMediator (12)
+  - MJRefresh (3.1.15.1)
+  - ZIKIMMapCategory (0.1.1):
+    - CTMediator
+  - ZIKIMMapKit (0.1.2):
+    - AMap2DMap-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - MJRefresh
+
+DEPENDENCIES:
+  - ZIKIMMapCategory
+  - ZIKIMMapKit
+
+SPEC CHECKSUMS:
+  AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
+  AMapFoundation-NO-IDFA: b6cbefab250ae8ab2e31aa9bb3dbbb98137cd76f
+  AMapLocation-NO-IDFA: a75b762ae9a90840ce683de12504ac843a9f3b6c
+  AMapSearch-NO-IDFA: 612a92f75ff20544f42d376dfcf3c034da4ad0b6
+  CTMediator: 83043d198b7ea73214d53375adfdd7f60edd4c1a
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  ZIKIMMapCategory: 3507ef1ecbe8bd630d774560a796bb51b2a51401
+  ZIKIMMapKit: d76e647c37ec4349be36797e87a42b8992076fb4
+
+PODFILE CHECKSUM: 6c98ab53d53729e2557c0ba0e42da580024c5e8a
+
+COCOAPODS: 1.1.1
